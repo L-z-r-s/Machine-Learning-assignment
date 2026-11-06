@@ -164,10 +164,11 @@ The recommended GitHub repository structure is:
 Heart-Disease-Prediction/
 │
 ├── app.py
-├── 2026AJ05230.ipynb
+├── train_and_export.ipynb
 ├── requirements.txt
 ├── README.md
 ├── test_data.csv
+├── heart.csv
 │
 ├── model/
 │   ├── scaler.pkl
@@ -176,9 +177,7 @@ Heart-Disease-Prediction/
 │   ├── KNN.pkl
 │   ├── Naive_Bayes.pkl
 │   └── SVM.pkl
-│
-└── dataset/
-    └── heart.csv
+
 ```
 
 *Note: The structure above is the recommended repository layout. Ensure the files are actually added before publishing the repository.*
@@ -204,13 +203,13 @@ Install Python and the required dependencies.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/L-z-r-s/Machine-Learning-assignment.git
 ```
 
 ### Step 2: Navigate to the Project Directory
 
 ```bash
-cd Heart-Disease-Prediction
+cd Machine-Learning-assignment
 ```
 
 ### Step 3: Install Dependencies
@@ -224,7 +223,7 @@ pip install -r requirements.txt
 Open the Jupyter Notebook:
 
 ```bash
-jupyter notebook 2026AJ05230.ipynb
+jupyter notebook test_and_export.ipynb
 ```
 
 Execute the notebook cells to perform preprocessing, model training, hyperparameter optimization, and evaluation.
@@ -254,9 +253,9 @@ The application should evaluate uploaded test data using previously trained mode
 
 The application is intended to be deployed using Streamlit Community Cloud.
 
-**Live Streamlit Application:** [Add your deployed Streamlit URL here]
+**Live Streamlit Application:** [(https://ml2026aj05230.streamlit.app)]
 
-**GitHub Repository:** [Add your GitHub URL here]
+**GitHub Repository:** [(https://github.com/L-z-r-s/Machine-Learning-assignment)]
 
 ## 10. Conclusion
 
@@ -265,5 +264,3 @@ This project implements and evaluates five machine learning classification algor
 The models were optimized using GridSearchCV and evaluated using six classification metrics. The experimental results indicate that Decision Tree and KNN achieved the highest scores, followed by Support Vector Machine.
 
 The project demonstrates the application of machine learning techniques in healthcare-related classification problems and provides a foundation for an interactive prediction and model evaluation application.
-
-**Disclaimer:** This project is developed for academic and educational purposes. Its predictions are not a substitute for professional medical diagnosis.

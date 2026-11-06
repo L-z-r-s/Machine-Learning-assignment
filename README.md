@@ -45,7 +45,7 @@ The dataset contains 526 records belonging to class 1 and 499 records belonging 
 
 ## 3. GitHub Repository Link
 
-**GitHub Repository:** [Add your GitHub repository URL here]
+**GitHub Repository:** [https://github.com/L-z-r-s/Machine-Learning-assignment]
 
 The repository contains the machine learning implementation, dataset used for testing, trained model files, preprocessing artifacts, and application source code.
 
